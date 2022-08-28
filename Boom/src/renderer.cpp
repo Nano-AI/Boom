@@ -9,9 +9,16 @@ void Renderer::run() {
 
 void Renderer::initWindow() {
 	LOG_F(INFO, "Creating %ix%i window.", WIDTH, HEIGHT);
+	if (!glfwInit()) {
+		LOG_F(FATAL, "Error initializing window!");
+	}
 	glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
 	glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
 	this->window = glfwCreateWindow(WIDTH, HEIGHT, "Vulkan", nullptr, nullptr);
+	if (!window) {
+		glfwTerminate();
+		LOG_F(FATAL, "Failed to create GLFW window");
+	}
 }
 
 void Renderer::createInstance() {
