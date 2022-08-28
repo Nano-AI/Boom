@@ -1,2 +1,3 @@
-include/* linguist-vendored
-lib/* linguist-vendored
+* linguist-vendored
+*.cpp linguist-vendored=false
+./include/*.c linguist-detectable=false
