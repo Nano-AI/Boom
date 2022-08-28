@@ -1,5 +1,4 @@
 * linguist-vendored
-./Boom/src/**/*.cpp linguist-vendored
 ./include/*.c linguist-detectable=false
 ./include/*.cpp linguist-detectable=false
 ./include/*.hpp linguist-detectable=false
