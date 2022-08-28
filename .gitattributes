@@ -1,7 +1,9 @@
 * linguist-vendored
-./include/*.c linguist-detectable=false
-./include/*.cpp linguist-detectable=false
-./include/*.hpp linguist-detectable=false
-./include/*.inl linguist-detectable=false
-./include/** linguist-detectable=false
-./include/**/* linguist-detectable=false
+include/*.c linguist-detectable=false
+include/*.cpp linguist-detectable=false
+include/*.hpp linguist-detectable=false
+include/*.inl linguist-detectable=false
+include/**/*.c linguist-detectable=false
+include/**/*.cpp linguist-detectable=false
+include/**/*.hpp linguist-detectable=false
+include/**/*.inl linguist-detectable=false
