@@ -5,4 +5,3 @@
 ./include/*.inl linguist-detectable=false
 ./include/** linguist-detectable=false
 ./include/**/* linguist-detectable=false
-./include/**/*.hpp linguist-detectable=false
