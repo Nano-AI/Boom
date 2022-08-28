@@ -1,4 +1,5 @@
 * linguist-vendored
+*.hpp linguist-detectable=false
 ./Boom/src/**/*.cpp linguist-vendored
 ./include/*.c linguist-detectable=false
 ./include/*.cpp linguist-detectable=false
@@ -6,3 +7,4 @@
 ./include/*.inl linguist-detectable=false
 ./include/** linguist-detectable=false
 ./include/**/* linguist-detectable=false
+./include/**/*.hpp linguist-detectable=false
