@@ -23,7 +23,7 @@ VKAPI_ATTR VkBool32 VKAPI_CALL Renderer::debugCallback(
     const VkDebugUtilsMessengerCallbackDataEXT* pCallbackData,
     void* pUserData) {
 
-	LOG_F(ERROR, "Validation layer: %s", pCallbackData->pMessage);
+	LOG_F(INFO, "Validation layer: %s", pCallbackData->pMessage);
 
     return VK_FALSE;
 }
