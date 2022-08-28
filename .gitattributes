@@ -1,5 +1,5 @@
-* linguist-vendored
-include/*.c linguist-detectable=false
-include/*.cpp linguist-detectable=false
-include/*.hpp linguist-detectable=false
-include/*.inl linguist-detectable=false
+#* linguist-vendored
+#include/*.c linguist-detectable=false
+#include/*.cpp linguist-detectable=false
+#include/*.hpp linguist-detectable=false
+#include/*.inl linguist-detectable=false
